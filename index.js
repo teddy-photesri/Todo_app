@@ -1,17 +1,43 @@
-let user_input = document.querySelector('#user_input');
-let button_add = document.querySelector('button_add');
-let my_list = document.querySelector('my_list');
+let user_input = document.querySelector("#user_input")
+let button_add = document.querySelector("#button_add")
+let my_list = document.querySelector("#my_list")
 
-// Add todo function
-
+// add To Do function
 function addTodo(text) {
-    let li = document.createElement('li');
-    let span = document.createElement('span');
+    let li = document.createElement("li")
+    let span = document.createElement('span')
+    span.innerText = text
+    li.appendChild(span)
 
-    span.innerHTML = text;
-    span.appendChild(text);
+    let button = document.createElement('button')
+    button.innerText = 'X'
+    li.appendChild(button)
+    my_list.appendChild(li)
 
+    // add remove function for remove button
+    button.addEventListener('click', function () {
+        my_list.removeChild(li)
+    })
 
+    li.addEventListener('click', function () {
 
+        if (li.style.textDecoration == '') {
+            li.style.textDecoration = "line-through"
+        } else {
+            li.style.textDecoration = ""
+        }
+
+    })
 
 }
+
+button_add.addEventListener('click', function () {
+
+    if (user_input.value === "") {
+        alert("Input the new thing To Do!")
+        return
+    }
+
+    addTodo(user_input.value)
+
+})
