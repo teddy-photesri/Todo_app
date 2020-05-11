@@ -17,6 +17,9 @@ function addTodo(text) {
     button.style.color = 'white'
     button.style.backgroundColor = '#b30000'
     button.style.borderRadius = '5px'
+    button.style.borderColor = 'none'
+
+
 
     li.appendChild(button)
     my_list.appendChild(li)
@@ -29,8 +32,9 @@ function addTodo(text) {
 
     li.addEventListener('click', function () {
 
-        if (li.style.textDecoration == '') {
+        if (li.style.textDecoration === '') {
             li.style.textDecoration = "line-through"
+
         } else {
             li.style.textDecoration = ""
         }
