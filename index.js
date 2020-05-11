@@ -9,10 +9,18 @@ function addTodo(text) {
     span.innerText = text
     li.appendChild(span)
 
+
+
     let button = document.createElement('button')
-    button.innerText = 'X'
+
+    button.innerText = 'delete'
+    button.style.color = 'white'
+    button.style.backgroundColor = '#b30000'
+    button.style.borderRadius = '5px'
+
     li.appendChild(button)
     my_list.appendChild(li)
+
 
     // add remove function for remove button
     button.addEventListener('click', function () {
