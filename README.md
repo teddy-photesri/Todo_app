@@ -5,6 +5,8 @@
 
 **01 - Problem Statement**
 - What problem is your project solving? Finances? Boredom?
+<br />
+<br />
 
 **02 - Solution**
 - Create the application for managing tasks that enables you to lay out everything that you need to accomplish and plan your day.
@@ -15,17 +17,30 @@
 
 **03 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
+<br />
+<br />
 
-**04 - Challeneges**
+**04 - Information Architechture**
+- HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
+<br />
+<br />
+
+**05 - Challeneges**
 - What was harder than you thought it might be?
+<br />
+<br />
 
-**05 - Successes**
+**06 - Successes**
 - What was easier than you thought it was going to be?
+<br />
+<br />
 
-**06 - Demo**
+**07 - Demo**
 - Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with App. (Please switch to mobile device)
+<br />
+<br />
 
-**7 - Code**
+**8 - Code**
 - HTML
 ```
 <div class="container  ">
