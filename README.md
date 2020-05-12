@@ -53,13 +53,13 @@
     </div>
 ```
 <br/>
+
 - JavaScript
 ```
 let user_input = document.querySelector("#user_input")
 let button_add = document.querySelector("#button_add")
 let my_list = document.querySelector("#my_list")
 
-// add To Do function
 function addTodo(text) {
     let li = document.createElement("li")
     let span = document.createElement('span')
@@ -77,7 +77,6 @@ function addTodo(text) {
     li.appendChild(button)
     my_list.appendChild(li)
 
-    // add remove function for remove button
     button.addEventListener('click', function () {
         my_list.removeChild(li)
     })
