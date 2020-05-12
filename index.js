@@ -9,8 +9,6 @@ function addTodo(text) {
     span.innerText = text
     li.appendChild(span)
 
-
-
     let button = document.createElement('button')
 
     button.innerText = 'delete'
@@ -19,11 +17,8 @@ function addTodo(text) {
     button.style.borderRadius = '5px'
     button.style.borderColor = 'none'
 
-
-
     li.appendChild(button)
     my_list.appendChild(li)
-
 
     // add remove function for remove button
     button.addEventListener('click', function () {
@@ -31,25 +26,18 @@ function addTodo(text) {
     })
 
     li.addEventListener('click', function () {
-
-        if (li.style.textDecoration === '') {
-            li.style.textDecoration = "line-through"
-
+        if (span.style.textDecoration === '') {
+            span.style.textDecoration = "line-through"
         } else {
-            li.style.textDecoration = ""
+            span.style.textDecoration = ""
         }
-
     })
-
 }
 
 button_add.addEventListener('click', function () {
-
     if (user_input.value === "") {
         alert("Input the new thing To Do!")
         return
     }
-
     addTodo(user_input.value)
-
 })
