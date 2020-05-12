@@ -7,7 +7,7 @@
 - What problem is your project solving? Finances? Boredom?
 
 **02 - Solution**
-- The idea to solve a problem
+- Create the application for managing tasks that enables you to lay out everything that you need to accomplish and plan your day.
 
 **03 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
@@ -43,8 +43,6 @@
 
                 <div class="todo_item mt-5 px-2">
                     <ul id="my_list">
-
-
                     </ul>
                 </div>
             </div>
