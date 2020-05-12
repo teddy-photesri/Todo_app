@@ -26,6 +26,34 @@
 ![Image](/images/instruction.png "Image")
 
 **7 - Code**
+- HTML
+```
+<div class="container  ">
+        <div class="row">
+            <div class="col-md-2 col-sm-12"></div>
+            <div class="background col-md-8 col-sm-12">
+                <div class="text-center">
+                    <h3 class="mt-5">My todo list</h3>
+                </div>
+
+                <div class="d-flex mt-3 px-2">
+                    <input type="text" class="form-control" id="user_input" placeholder="What is your plan?">
+                    <button type="button" class="btn btn-light ml-2" id="button_add">Add</button>
+                </div>
+
+                <div class="todo_item mt-5 px-2">
+                    <ul id="my_list">
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12"></div>
+        </div>
+    </div>
+```
+<br/>
+- JavaScript
 ```
 let user_input = document.querySelector("#user_input")
 let button_add = document.querySelector("#button_add")
