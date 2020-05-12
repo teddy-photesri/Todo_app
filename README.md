@@ -15,6 +15,7 @@ ________________________________________________________________________________
 
 **03 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
+<hr>
 
 **04 - Challeneges**
 - What was harder than you thought it might be?
