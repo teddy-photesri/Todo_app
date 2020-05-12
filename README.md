@@ -6,15 +6,15 @@
 <br />
 
 **01 - Project Overview**
-- How might we keep track our daily task?
+- How might we manage and keep track our daily task?
 <br />
 
 **02 - Problem Statement**
-- How might we keep track our daily task?
+- How might we managing tasks that enables you to lay out everything that you need to accomplish and plan your day?
 <br />
 
 **03 - Solution**
-- Create the application for managing tasks that enables you to lay out everything that you need to accomplish and plan your day.
+- Create the TO-DO List application.
 <br />
 
 ![Image](/images/instruction.png "Image")
