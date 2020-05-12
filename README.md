@@ -25,7 +25,7 @@
 **04 - Information Architechture**
 <br />
 
-![IA](/images/ia.png "IA")
+![IA](/images/ia@4x.png "IA")
 <br />
 
 
