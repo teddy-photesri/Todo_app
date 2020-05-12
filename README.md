@@ -8,10 +8,11 @@
 ### 03 - Challeneges
 ### 04 - Successes
 ### 05 - Demo
-- Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with Interaction Prototype.
+- Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with App. (Please switch to mobile device)
 
 
 ![Image](/images/instruction.png "Image")
+
 ### 06 - Code
 
 
