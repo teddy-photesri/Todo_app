@@ -5,46 +5,44 @@
 <br />
 <br />
 
-**01 - Problem Statement**
-- What problem is your project solving? Finances? Boredom?
+**01 - Project Overview**
+- How might we keep track our daily task?
 <br />
 
+**02 - Problem Statement**
+- How might we keep track our daily task?
+<br />
 
-**02 - Solution**
+**03 - Solution**
 - Create the application for managing tasks that enables you to lay out everything that you need to accomplish and plan your day.
 <br />
 
 ![Image](/images/instruction.png "Image")
 <br />
 
-**03 - Technologies Usage**
+**04 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
 <br />
 
-
-**04 - Information Architechture**
+**05 - Information Architechture**
 <br />
 
 ![IA](/images/ia.png "IA")
 <br />
 
-
-**05 - Challeneges**
+**06 - Challeneges**
 - What was harder than you thought it might be?
 <br />
 
-
-**06 - Successes**
+**07 - Successes**
 - What was easier than you thought it was going to be?
 <br />
 
-
-**07 - Demo**
+**08 - Demo**
 - Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with App. (Please switch to mobile device)
 <br />
 
-
-**8 - Code**
+**9 - Code**
 - HTML
 ```
 <div class="container  ">
