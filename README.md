@@ -5,17 +5,12 @@
 
 **01 - Problem Statement**
 - What problem is your project solving? Finances? Boredom?
-_____________________________________________________________________________________________
-
 
 **02 - Solution**
 - The idea to solve a problem
-_____________________________________________________________________________________________
-
 
 **03 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
-<hr>
 
 **04 - Challeneges**
 - What was harder than you thought it might be?
