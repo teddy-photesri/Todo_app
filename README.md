@@ -2,43 +2,45 @@
 
 # Todo_app
 ##### It's a great device for managing time that enables you to lay out everything that you need to accomplish and plan your day.
+<br />
+<br />
 
 **01 - Problem Statement**
 - What problem is your project solving? Finances? Boredom?
 <br />
-<br />
+
 
 **02 - Solution**
 - Create the application for managing tasks that enables you to lay out everything that you need to accomplish and plan your day.
 <br />
-<br />
+
 
 ![Image](/images/instruction.png "Image")
 
 **03 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
 <br />
-<br />
+
 
 **04 - Information Architechture**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
 <br />
-<br />
+
 
 **05 - Challeneges**
 - What was harder than you thought it might be?
 <br />
-<br />
+
 
 **06 - Successes**
 - What was easier than you thought it was going to be?
 <br />
-<br />
+
 
 **07 - Demo**
 - Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with App. (Please switch to mobile device)
 <br />
-<br />
+
 
 **8 - Code**
 - HTML
