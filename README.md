@@ -5,7 +5,7 @@
 
 ### 01 - Problem Statement
 
-### 02 - Technologies Usage
+**02 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
 
 ### 03 - Challeneges
