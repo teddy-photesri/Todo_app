@@ -14,8 +14,8 @@
 - Create the application for managing tasks that enables you to lay out everything that you need to accomplish and plan your day.
 <br />
 
-
 ![Image](/images/instruction.png "Image")
+<br />
 
 **03 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
@@ -23,7 +23,9 @@
 
 
 **04 - Information Architechture**
-- HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
+<br />
+
+![IA](/images/ia.png "IA")
 <br />
 
 
