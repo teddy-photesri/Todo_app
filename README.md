@@ -4,11 +4,12 @@
 ##### It's a great device for managing time that enables you to lay out everything that you need to accomplish and plan your day.
 
 ### 01 - Problem Statement
-### 01 - Technologies Usage
-### 01 - Challeneges
-### 01 - Successes
-### 01 - Demo
+### 02 - Technologies Usage
+### 03 - Challeneges
+### 04 - Successes
+### 05 - Demo
+- Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with Interaction Prototype.
 ![Image](/images/todo.png "Image")
-### 01 - Code
+### 06 - Code
 
 
