@@ -8,6 +8,10 @@
 
 **02 - Solution**
 - Create the application for managing tasks that enables you to lay out everything that you need to accomplish and plan your day.
+<br />
+<br />
+
+![Image](/images/instruction.png "Image")
 
 **03 - Technologies Usage**
 - HTML5 | CSS3 | JavaScript | Bootstrap | Illustrator
@@ -20,10 +24,6 @@
 
 **06 - Demo**
 - Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with App. (Please switch to mobile device)
-<br />
-<br />
-
-![Image](/images/instruction.png "Image")
 
 **7 - Code**
 - HTML
