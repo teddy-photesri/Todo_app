@@ -9,7 +9,7 @@
 ### 04 - Successes
 ### 05 - Demo
 - Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with Interaction Prototype.
-![Image](/images/todo.png "Image")
+![Image](/images/instruction.png "Image")
 ### 06 - Code
 
 
