@@ -6,11 +6,11 @@
 <br />
 
 **01 - Project Overview**
-- How might we manage and keep track our daily task?
+- In the busy world, everybody has so many things to accomplish daily. Personal through working. It should be great if we can use our personal device, such as a mobile phone as a tool to helps to manage our daily tasks. That makes our day smoothly.
 <br />
 
 **02 - Problem Statement**
-- How might we managing tasks that enables you to lay out everything that you need to accomplish and plan your day?
+- How might we managing tasks that enables to lay out everything that need to accomplish and plan our day?
 <br />
 
 **03 - Solution**
@@ -30,13 +30,14 @@
 ![IA](/images/ia.png "IA")
 <br />
 
-**06 - Challeneges**
-- What was harder than you thought it might be?
+**06 - Successes**
+- It's finally usable a self-code To-Do List web app that I absolutely used, and some of my friends using it too.
 <br />
 
-**07 - Successes**
-- What was easier than you thought it was going to be?
+**07 - Next Step**
+- The to-do list could be removed if we refresh the screen because all the data doesn't locate on any file or store in the memory. I would like to create the JSON file that we can put the talks and remove them from the JASON file.
 <br />
+
 
 **08 - Demo**
 - Click a [Link](https://teddy-photesri.github.io/Todo_app/) to play with App. (Please switch to mobile device)
