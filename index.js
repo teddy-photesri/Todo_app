@@ -15,7 +15,7 @@ function addTodo(text) {
     button.style.color = 'white'
     button.style.backgroundColor = '#b30000'
     button.style.borderRadius = '5px'
-    // button.style.borderColor = 'none'
+    button.style.border = 'none'
 
     li.appendChild(button)
     my_list.appendChild(li)
