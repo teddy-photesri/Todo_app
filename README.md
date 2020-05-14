@@ -24,14 +24,10 @@
 <br />
 
 **05 - Information Architechture**
-<br />
-<br />
-<br />
+
 
 ![IA](/images/chart.png "IA")
-<br />
-<br />
-<br />
+
 
 **06 - Successes**
 - It's finally usable a self-code To-Do List web app that I absolutely used, and some of my friends using it too.
