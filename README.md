@@ -15,7 +15,6 @@
 
 **03 - Solution**
 - Create the TO-DO List application.
-<br />
 
 ![Image](/images/instruction2.png "Image")
 <br />
@@ -25,6 +24,8 @@
 <br />
 
 **05 - Information Architechture**
+<br />
+<br />
 <br />
 
 ![IA](/images/ia.png "IA")
