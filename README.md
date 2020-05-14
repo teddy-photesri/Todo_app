@@ -28,7 +28,7 @@
 <br />
 <br />
 
-![IA](/images/ia.png "IA")
+![IA](/images/chart.png "IA")
 <br />
 <br />
 <br />
