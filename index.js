@@ -14,10 +14,11 @@ btn_color.addEventListener('click', function () {
         btn_color.innerText = 'light mode'
         screen_color.style.color = 'white'
         screen_color.style.backgroundColor = '#2f2f31'
+
     } else if (mode === "light") {
         btn_color.innerText = 'dark mode'
         screen_color.style.color = 'black'
-        screen_color.style.backgroundColor = 'white'
+        screen_color.style.backgroundColor = '#f2f3f4'
     }
 })
 
