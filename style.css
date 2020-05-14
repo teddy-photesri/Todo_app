@@ -24,3 +24,9 @@ li {
     cursor: grab;
 }
 
+#btn-container {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
