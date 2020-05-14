@@ -46,27 +46,28 @@
 **9 - Code**
 - HTML
 ```
-<div class="container  ">
-        <div class="row">
-            <div class="col-md-2 col-sm-12"></div>
-            <div class="background col-md-8 col-sm-12">
-                <div class="text-center">
-                    <h3 class="mt-5">My todo list</h3>
-                </div>
-
-                <div class="d-flex mt-3 px-2">
-                    <input type="text" class="form-control" id="user_input" placeholder="What is your plan?">
-                    <button type="button" class="btn btn-light ml-2" id="button_add">Add</button>
-                </div>
-
-                <div class="todo_item mt-5 px-2">
-                    <ul id="my_list">
-                    </ul>
-                </div>
+<div class="container ">
+    <div class="row">
+        <div class="col-md-2 col-sm-12"></div>
+        <div id="screen_color" class="col-md-8 col-sm-12">
+            <div class="mt-3" id="btn_color"></div>
+            <div class="text-center">
+                <h3 class="mt-5">My to-do list</h3>
             </div>
-            <div class="col-md-2 col-sm-12"></div>
+
+            <div class="d-flex mt-3 px-2">
+                <input type="text" class="form-control" id="user_input" placeholder="What is your plan?">
+                <button type="button" class="btn btn-info ml-2" id="button_add">Add</button>
+            </div>
+
+            <div class="todo_item mt-5 px-2">
+                <ul id="my_list">
+                </ul>
+            </div>
         </div>
+        <div class="col-md-2 col-sm-12"></div>
     </div>
+</div>
 ```
 <br/>
 
@@ -75,7 +76,27 @@
 let user_input = document.querySelector("#user_input")
 let button_add = document.querySelector("#button_add")
 let my_list = document.querySelector("#my_list")
+let screen_color = document.querySelector("#screen_color")
+let btn_color = document.querySelector('#btn_color')
+let mode = "light";
 
+btn_color.innerText = 'dark mode'
+
+btn_color.addEventListener('click', function () {
+
+    mode = mode === "light" ? "dark" : "light"
+    if (mode === "dark") {
+        btn_color.innerText = 'light mode'
+        screen_color.style.color = 'white'
+        screen_color.style.backgroundColor = '#2f2f31'
+    } else if (mode === "light") {
+        btn_color.innerText = 'dark mode'
+        screen_color.style.color = 'black'
+        screen_color.style.backgroundColor = 'white'
+    }
+})
+
+// add To Do function
 function addTodo(text) {
     let li = document.createElement("li")
     let span = document.createElement('span')
@@ -88,11 +109,12 @@ function addTodo(text) {
     button.style.color = 'white'
     button.style.backgroundColor = '#b30000'
     button.style.borderRadius = '5px'
-    button.style.borderColor = 'none'
+    button.style.borderColor = 'red'
 
     li.appendChild(button)
     my_list.appendChild(li)
 
+    // add remove function for remove button
     button.addEventListener('click', function () {
         my_list.removeChild(li)
     })

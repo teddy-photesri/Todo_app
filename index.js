@@ -1,6 +1,25 @@
 let user_input = document.querySelector("#user_input")
 let button_add = document.querySelector("#button_add")
 let my_list = document.querySelector("#my_list")
+let screen_color = document.querySelector("#screen_color")
+let btn_color = document.querySelector('#btn_color')
+let mode = "light";
+
+btn_color.innerText = 'dark mode'
+
+btn_color.addEventListener('click', function () {
+
+    mode = mode === "light" ? "dark" : "light"
+    if (mode === "dark") {
+        btn_color.innerText = 'light mode'
+        screen_color.style.color = 'white'
+        screen_color.style.backgroundColor = '#2f2f31'
+    } else if (mode === "light") {
+        btn_color.innerText = 'dark mode'
+        screen_color.style.color = 'black'
+        screen_color.style.backgroundColor = 'white'
+    }
+})
 
 // add To Do function
 function addTodo(text) {
